@@ -92,6 +92,7 @@ h5 {
   }
   
   .column img {
+    transform: translateY(-250px);
     margin-top: 8px;
     vertical-align: middle;
   }
@@ -219,7 +220,7 @@ html, body {
 
   
   .custom-card {
-    transform: translateY(-150px);
+    transform: translateY(-250px);
     text-align: center;
     width:500px;
     max-width: 90%;
