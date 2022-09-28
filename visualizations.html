@@ -13,6 +13,23 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
+    <!-- page First Navigation -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="" alt="">
+            </a>
+            <div class="socials">
+                <a href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                <a href="javascript:void(0)"><i class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)"><i class="ti-instagram"></i></a>
+                <a href="javascript:void(0)"><i class="ti-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of First Navigation -->
+
     <!-- Page Second Navigation -->
     <nav class="navbar custom-navbar navbar-expand-md navbar-light bg-primary sticky-top">
         <div class="container">
@@ -28,6 +45,9 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="Feature.html">Featured Article</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="visualizations.html">Visualization</a>
                     </li>
                     <li class="nav-item">
@@ -41,21 +61,20 @@
                             Dropdown
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="Resources.html">Resources</a>
+                            <a class="dropdown-item" href="Closing.html">Closing</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="The Team.html">The Team</a>
                         </div>
-                    </li>
-                    <li class="nav-item">
+             <!--<li class="nav-item">
                         <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
+                    </li>-->
                 </ul>
-                <div class="navbar-nav ml-auto">
+                <!--<div class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a href="components.html" class="ml-4 btn btn-dark mt-1 btn-sm">Components</a>
                     </li>
-                </div>
+                </div>-->
             </div>
         </div>
     </nav>
@@ -127,14 +146,11 @@
                                             <img src="assets/imgs/final project part 2/Slide5.JPG" alt="" class="w-100">                                            
 
                                         </div>
-
-                                        
-
                                     </div>
                                 </div>
                             </div>
-
-                        <a href="#" class="badge badge-primary">#Salupt</a> 
+                        </div>
+                         
 
                     </div> 
                         <!--This it For Below the Image-->
@@ -143,33 +159,36 @@
                             <span class="px-2">·</span>
                             <span>September 2022</span>
                             <span class="px-2">·</span>
-                            <a href="#" class="text-muted">32 Comments</a>
+                            
                         </small>
                     </div>
                     <div class="card-body border-top">
-                        <p class="my-3">Using RStudio, the data was grouped by region and then shows the average 
-                            happiness score for that region and year. </p> 
+                        <p class="my-3"> Tableau is and interactive way to visualize data. It allows the user to clean and or bypass cleaning
+                            so he or she can start cherry picking the columns they would like to display.</p> 
+                            
+                           <p>**Cleaning and Normalizing Data is Highly Recommended in any case.**</p>
 
-                        <p>First, a year column was added to each dataset.Then the two tableswere added together in order
-                             to be able tot compare the data from each year. Then the tables were grouped by region and 
-                             year and then summarized by the average happiness score.Then the heatmap was created where
-                              x is the region, y is the year and the color is based on the average happniess score.</p>
+                            <p> Tableau allowed us to display  to create an engaging and dynamic dashboards 
+                            and incorporate them into a palimerary story around data.</p>
+                          
 
-                        <p>  From the heatmap it can be seen that the regions 'Australian and New Zealand' 
-                             and 'North America' have higher average happiness scores. The lowest average is the 'Sub-Saharan Africa'.</p>
+                        <p>With Tableau as our first step we were able to establish a solid base for our exploration and also answer what the data looked like on 
+                            a map.</p>
+
+                        <p>  </p>
                     </div>
                     <div class="card-header pt-0">
                         <h3 class="card-title mb-4">RStudio</h3>
                         <div class="blog-media mb-4">
                             <img src="assets/imgs/visual.png/r-viz.png" alt="" class="w-100">
-                            <a href="#" class="badge badge-primary">#Salupt</a> 
+                             
                         </div>  
                         <small class="small text-muted">
-                            <a href="#" class="text-muted">BY </a>
+                            
                             <span class="px-2">·</span>
                             <span>September 2022</span>
                             <span class="px-2">·</span>
-                            <a href="#" class="text-muted">32 Comments</a>
+                            
                         </small>
                     </div>
 
@@ -185,7 +204,106 @@
                         <p>  From the heatmap it can be seen that the regions 'Australian and New Zealand' 
                              and 'North America' have higher average happiness scores. The lowest average is the 'Sub-Saharan Africa'.</p>
                     </div>
-                    
+
+                    <section class="container">
+                        <div class="page-container">
+                            <div class="page-content">
+                                <div class="card">
+                                    <div class="card-header pt-0">
+                                        <h3 class="card-title mb-4">Ployly</h3>
+                                            <div class="blog-media mb-4">
+                                        <!--This is where Im inserting the block for Slide images--> 
+                                            <div class="container carousel-container">
+                                                <!-- begin carousel -->                                
+                                                <!-- images should be 800*600 or a matching ratio for best results -->
+                                                <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#portfolioCarousel" data-slide-to="0" class="active custom-indicator"></li>
+                                                        <li data-target="#portfolioCarousel" data-slide-to="1" class="custom-indicator"></li>
+                                                        <li data-target="#portfolioCarousel" data-slide-to="2" class="custom-indicator"></li>
+                                                        <li data-target="#portfolioCarousel" data-slide-to="3" class="custom-indicator"></li>
+                                                        <li data-target="#portfolioCarousel" data-slide-to="4" class="custom-indicator"></li>
+                                                    </ol>
+
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                
+                                                        <img src="https://user-images.githubusercontent.com/103130997/191627276-267f14a5-14d8-485b-88b4-8702d683d5ac.png" alt="" class="w-100">
+                                                                                                
+            
+                                                    </div>
+            
+                                                    <div class="carousel-item">                    
+                                                        <!--image here -->
+                                                        <img src="https://user-images.githubusercontent.com/103130997/191627298-66f11f0d-c786-4cef-ac6c-7d4612a6c305.png" alt="" class="w-100">
+                                                        
+            
+                                                    </div>
+            
+                                                    <div class="carousel-item">
+                                
+                                                        <!--image here -->
+                                                        <img src= "https://user-images.githubusercontent.com/102255823/191093873-f6a8a08d-3c11-49c8-8157-005a70182ed7.png" alt="" class="w-100">
+                                                        
+            
+                                                    </div>
+            
+                                                    <div class="carousel-item">
+                                
+                                                        <!--image here -->
+                                                        <img src="https://user-images.githubusercontent.com/102255823/191093878-0c5290d1-1ce1-4af1-81c6-13afcdccf216.png" alt="" class="w-100">
+                                                        
+            
+                                                    </div>
+            
+                                                    <div class="carousel-item">
+                                
+                                                        <!--image here -->
+                                                        <img src="assets/imgs/final project part 2/Slide5.JPG" alt="" class="w-100">                                            
+            
+                                                    </div>
+            
+                                                    
+            
+                                                </div>
+                                            </div>
+                                        </div>               
+                                    </div>
+                                </div>
+                            </div> 
+                        </div> 
+                        <!--This it For Below the Image-->
+                        <small class="small text-muted">
+                            <a href="#" class="text-muted">BY </a>
+                            <span class="px-2">·</span>
+                            <span>September 2022</span>
+                            <span class="px-2">·</span>
+                            
+                        </small>
+                        </div>
+                        <div class="card-body border-top">
+                            <p class="my-3">Using Plotly from Pandas a scatter plot is created showing the relation between each variable against
+                                    each other . It can be seen that the 10 countries have the highest y value and follow a linear pattern. But moving 
+                                    right, down the list of countries, the data points become more scatterd which shows there is less correlation
+                                    between the country ranking and Economy, Family, or Health.  </p> 
+    
+                            <p>The image above depicts a scatter graph of the World Happiness Report for 2015. Comparing not only the independent
+                                    variable to the dependant i.e the happiness score seems to have a positive correlation with most other columns 
+                                    which is to be expected. Economy does not seem to have any correlation with generosity and trust meaning a 
+                                    countries GDP does not determine its governments level of corruption nor its generosity and vice versa. 
+                                    However, freedom, health and family all have positive a correlation to Economy. Regarding family again 
+                                    little to no correlation with generosity and trust thus family does not determine how many citizens give/donate,
+                                    it does have a positive correlation with freedom and an even greater positive correlation with health. 
+                                    With health there is little to no correlation with generosity and trust but there is a positive correlation with freedom.</p>
+    
+                            <p>  With this information we can loosely determine that economy, family, health and freedom all effect each other.
+
+                                The graph above depicts world happiness report for 2016 which it not much different from the 2015 report.
+                                
+                                That is economy, family, health and freedom all effect each other..</p>
+                        </div>
+                    </div>
+                </div>  
                     <!--<div class="card-footer">
                          <h6 class="mt-5 mb-3 text-center"><a href="#" class="text-dark">Comments 4</a></h6>
                         <hr>
@@ -305,7 +423,7 @@
                     </div>
                 </div>
             </div>-->
-            
+
             <!-- Sidebar -->
             <!--<div class="page-sidebar">
                 <h6 class=" ">Tags</h6>
@@ -400,33 +518,33 @@
     </div>-->
 
     <!-- Page Footer -->
-    <!--<footer class="page-footer">
+    <footer class="page-footer">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
-                    <img src="assets/imgs/logo.svg" alt="" class="logo">
+                 <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
+                    <img src="assets/imgs/index/Header_CPS.jpg" class="w-100" alt="">
                 </div>
                 <div class="col-md-9 text-center text-md-right">
-                    <div class="socials">
-                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-facebook pr-1"></i> 123,345</a>
-                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-twitter pr-1"></i> 321,534</a>
-                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-pinterest-alt pr-1"></i> 543,312</a>
-                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-instagram pr-1"></i> 123,023</a>
-                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-youtube pr-1"></i> 231,043</a>
+                   <div class="socials">
+                        <a href="https://github.com/cbenitez0323" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a>  Clarissa Benitez</a>
+                        <a href="https://github.com/Atomickilroy/Final-Project/tree/main" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a> Nathaniel Livingston </a>
+                        <a href="https://github.com/hajaf?tab=repositories" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a> Haja Njie</a>
+                        <a href="https://github.com/caradavidson" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a>Cara Davidson</a>
+                       <!-- <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-youtube pr-1"></i> 231,043</a>--> 
                     </div>
-                </div>  
+                </div>
             </div>
-            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>document.write(new Date().getFullYear())</script>, JoeBlog Created By <a href="https://www.devcrud.com" class="text-muted font-weight-bold" target="_blank">DevCrud.</a>  All rights reserved </p> 
+            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>document.write(new Date().getFullYear())</script>, Created By Team<a href="" class="text-muted font-weight-bold" target="_blank"></a>  All rights reserved </p> 
         </div>      
-    </footer>-->
-    <!-- End of Page Footer -->
-
+    </footer>
+    <!--End of Page Footer -->
+    
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- JoeBLog js -->
-    <!--<script src="assets/js/joeblog.js"></script>-->
+    <script src="assets/js/joeblog.js"></script>
 
 </body>
 </html>

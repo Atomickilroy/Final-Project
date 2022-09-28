@@ -13,6 +13,23 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
+    <!-- page First Navigation -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="" alt="">
+            </a>
+            <div class="socials">
+                <!--<a href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                <a href="javascript:void(0)"><i class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)"><i class="ti-instagram"></i></a>
+                <a href="javascript:void(0)"><i class="ti-youtube"></i></a>-->
+            </div>
+        </div>
+    </nav>
+    <!-- End Of First Navigation -->
+
     <!-- Page Second Navigation -->
     <nav class="navbar custom-navbar navbar-expand-md navbar-light bg-primary sticky-top">
         <div class="container">
@@ -28,6 +45,9 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="Feature.html">Featured Article</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="visualizations.html">Visualization</a>
                     </li>
                     <li class="nav-item">
@@ -41,21 +61,20 @@
                             Dropdown
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="Resources.html">Resources</a>
+                            <a class="dropdown-item" href="Closing.html">Closing</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="The Team.html">The Team</a>
                         </div>
-                    </li>
-                    <li class="nav-item">
+             <!--<li class="nav-item">
                         <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
+                    </li>-->
                 </ul>
-                <div class="navbar-nav ml-auto">
+                <!--<div class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a href="components.html" class="ml-4 btn btn-dark mt-1 btn-sm">Components</a>
                     </li>
-                </div>
+                </div>-->
             </div>
         </div>
     </nav>
@@ -63,10 +82,10 @@
 
     <!-- Page Header -->
     <header class="page-header page-header-mini">
-        <h1 class="title">Visualization's</h1>
+        <h1 class="title">Featured Article</Article></h1>
         <ol class="breadcrumb pb-0">
             <li class="breadcrumb-item"><a href="no-sidebar.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Visualization's</li>
+            <li class="breadcrumb-item active" aria-current="page">Featured Article</li>
         </ol>
     </header>
     <!-- End Of Page Header -->
@@ -76,7 +95,7 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-header pt-0">
-                        <h3 class="card-title mb-4">Tableau</h3>
+                        <h3 class="card-title mb-4">World Happiness</h3>
                         <div class="blog-media mb-4">
                         <!--This is where Im inserting the block for Slide images--> 
                             <div class="container carousel-container">
@@ -93,14 +112,14 @@
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                     
-                                            <img src="assets/imgs/final project part 2/Slide1.JPG" alt="" class="w-100">
+                                            <img src="assets/imgs/index/family.jpg" alt="" class="w-100">
                                                                                    
 
                                         </div>
 
                                         <div class="carousel-item">                    
                                             <!--image here -->
-                                            <img src="assets/imgs/final project part 2/Slide2.JPG" alt="" class="w-100">
+                                            <img src="assets/imgs/Google Slides/World Happiness Report/Slide2.JPG" alt="" class="w-100">
                                             
 
                                         </div>
@@ -147,45 +166,23 @@
                         </small>
                     </div>
                     <div class="card-body border-top">
-                        <p class="my-3">Using RStudio, the data was grouped by region and then shows the average 
-                            happiness score for that region and year. </p> 
+                        <p class="my-3">
+                            Through the exploration of the Kaggle dataset "World Happiness Report-Happiness" the goal is to answer the questiions below and find the underlying meaning of what separates the happiness of one country from that of another. In the attempt to not only to deepen our understanding but maybe yours too.
 
-                        <p>First, a year column was added to each dataset.Then the two tableswere added together in order
-                             to be able tot compare the data from each year. Then the tables were grouped by region and 
-                             year and then summarized by the average happiness score.Then the heatmap was created where
-                              x is the region, y is the year and the color is based on the average happniess score.</p>
+                            - Where is the happiest place in the world to live?
+                            
+                            - Which factors affect happiness the most ?
+                            
+                            - What does the ranking look like on a map?
+                            
+                            - What are the top 10 and botom 10 happiest places on earth?</p> 
 
-                        <p>  From the heatmap it can be seen that the regions 'Australian and New Zealand' 
-                             and 'North America' have higher average happiness scores. The lowest average is the 'Sub-Saharan Africa'.</p>
-                    </div>
-                    <div class="card-header pt-0">
-                        <h3 class="card-title mb-4">RStudio</h3>
-                        <div class="blog-media mb-4">
-                            <img src="assets/imgs/visual.png/r-viz.png" alt="" class="w-100">
-                            <a href="#" class="badge badge-primary">#Salupt</a> 
-                        </div>  
-                        <small class="small text-muted">
-                            <a href="#" class="text-muted">BY </a>
-                            <span class="px-2">·</span>
-                            <span>September 2022</span>
-                            <span class="px-2">·</span>
-                            <a href="#" class="text-muted">32 Comments</a>
-                        </small>
-                    </div>
-
-                    <div class="card-body border-top">
-                        <p class="my-3">Using RStudio, the data was grouped by region and then shows the average 
-                            happiness score for that region and year. </p> 
-
-                        <p>First, a year column was added to each dataset.Then the two tableswere added together in order
-                             to be able tot compare the data from each year. Then the tables were grouped by region and 
-                             year and then summarized by the average happiness score.Then the heatmap was created where
-                              x is the region, y is the year and the color is based on the average happniess score.</p>
+                        <p></p>
 
                         <p>  From the heatmap it can be seen that the regions 'Australian and New Zealand' 
                              and 'North America' have higher average happiness scores. The lowest average is the 'Sub-Saharan Africa'.</p>
                     </div>
-                    
+                                                          
                     <!--<div class="card-footer">
                          <h6 class="mt-5 mb-3 text-center"><a href="#" class="text-dark">Comments 4</a></h6>
                         <hr>
@@ -400,33 +397,33 @@
     </div>-->
 
     <!-- Page Footer -->
-    <!--<footer class="page-footer">
+    <footer class="page-footer">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
-                    <img src="assets/imgs/logo.svg" alt="" class="logo">
+                 <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
+                    <img src="assets/imgs/index/Header_CPS.jpg" class="w-100" alt="">
                 </div>
                 <div class="col-md-9 text-center text-md-right">
-                    <div class="socials">
-                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-facebook pr-1"></i> 123,345</a>
-                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-twitter pr-1"></i> 321,534</a>
-                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-pinterest-alt pr-1"></i> 543,312</a>
-                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-instagram pr-1"></i> 123,023</a>
-                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-youtube pr-1"></i> 231,043</a>
+                   <div class="socials">
+                        <a href="https://github.com/cbenitez0323" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a>  Clarissa Benitez</a>
+                        <a href="https://github.com/Atomickilroy/Final-Project/tree/main" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a> Nathaniel Livingston </a>
+                        <a href="https://github.com/hajaf?tab=repositories" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a> Haja Njie</a>
+                        <a href="https://github.com/caradavidson" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a>Cara Davidson</a>
+                       <!-- <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-youtube pr-1"></i> 231,043</a>--> 
                     </div>
-                </div>  
+                </div>
             </div>
-            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>document.write(new Date().getFullYear())</script>, JoeBlog Created By <a href="https://www.devcrud.com" class="text-muted font-weight-bold" target="_blank">DevCrud.</a>  All rights reserved </p> 
+            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>document.write(new Date().getFullYear())</script>, Created By Team<a href="" class="text-muted font-weight-bold" target="_blank"></a>  All rights reserved </p> 
         </div>      
-    </footer>-->
-    <!-- End of Page Footer -->
-
+    </footer>
+    <!--End of Page Footer -->
+    
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- JoeBLog js -->
-    <!--<script src="assets/js/joeblog.js"></script>-->
+    <script src="assets/js/joeblog.js"></script>
 
 </body>
 </html>

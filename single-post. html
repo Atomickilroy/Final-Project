@@ -19,7 +19,13 @@
             <a class="navbar-brand" href="#">
                 <img src="" alt="">
             </a>
-            
+            <div class="socials">
+                <a href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                <a href="javascript:void(0)"><i class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)"><i class="ti-instagram"></i></a>
+                <a href="javascript:void(0)"><i class="ti-youtube"></i></a>
+            </div>
         </div>
     </nav>
     <!-- End Of First Navigation -->
@@ -39,7 +45,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Feature.html">Featured Article</a>
+                        <a class="nav-link" href="single-post. html">Featured Article</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="visualizations.html">Visualization</a>
@@ -76,10 +82,10 @@
 
     <!-- Page Header -->
     <header class="page-header page-header-mini">
-        <h1 class="title">Machine Learning</h1>
+        <h1 class="title">Featured Article</h1>
         <ol class="breadcrumb pb-0">
             <li class="breadcrumb-item"><a href="no-sidebar.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Machine Learning</li>
+            <li class="breadcrumb-item active" aria-current="page">Featured Article</li>
         </ol>
     </header>
     <!-- End Of Page Header -->
@@ -89,21 +95,7 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-header pt-0">
-                        <h3 class="card-title mb-4">Processing and Fitting Models with Machine Learning</h3>
-                            <div class="blog-media mb-4">
-                                <p> 
-                                    <h4>Machine Learning Model<br>
-                                    
-                                        Tools to be used:</h4>                                    
-                                 
-                                    <p> •	R studio </p>
-                                    <p> •	Python</p>
-                                    <p> •	Tableau </p>
-                                    <p> • Google Colab</p>
-                                                            
-                                </p>
-                            <div>
-
+                        <h3 class="card-title mb-4">Tableau</h3>
                         <div class="blog-media mb-4">
                         <!--This is where Im inserting the block for Slide images--> 
                             <div class="container carousel-container">
@@ -120,14 +112,14 @@
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                     
-                                            <img src="https://user-images.githubusercontent.com/102255823/192153472-de0eda5b-8931-4bb6-b3a0-794abbf90671.png" alt="" class="w-100">
+                                            <img src="assets/imgs/final project part 2/Slide1.JPG" alt="" class="w-100">
                                                                                    
 
                                         </div>
 
                                         <div class="carousel-item">                    
                                             <!--image here -->
-                                            <img src="https://user-images.githubusercontent.com/102255823/192153489-20be535c-d19b-4e4d-b6e5-130e5ee44579.png" alt="" class="w-100">
+                                            <img src="assets/imgs/final project part 2/Slide2.JPG" alt="" class="w-100">
                                             
 
                                         </div>
@@ -135,7 +127,7 @@
                                         <div class="carousel-item">
                     
                                             <!--image here -->
-                                            <img src="https://user-images.githubusercontent.com/102255823/192153541-9f5d5bc4-404b-4be7-9af3-bfff470d1d82.png" alt="" class="w-100">
+                                            <img src="assets/imgs/final project part 2/Slide3.JPG" alt="" class="w-100">
                                             
 
                                         </div>
@@ -143,7 +135,7 @@
                                         <div class="carousel-item">
                     
                                             <!--image here -->
-                                            <img src="https://user-images.githubusercontent.com/102255823/192153943-98fc1c7c-423a-4bb0-82e6-e424a970e92b.png">" alt="" class="w-100">
+                                            <img src="assets/imgs/final project part 2/Slide4.JPG" alt="" class="w-100">
                                             
 
                                         </div>
@@ -151,7 +143,7 @@
                                         <div class="carousel-item">
                     
                                             <!--image here -->
-                                            <img src="https://hvplot.holoviz.org/_images/interactive_hvplot.gif" alt="" class="w-100">                                            
+                                            <img src="assets/imgs/final project part 2/Slide5.JPG" alt="" class="w-100">                                            
 
                                         </div>
 
@@ -161,41 +153,57 @@
                                 </div>
                             </div>
 
-                        <a href="#" class="badge badge-primary"></a> 
+                        <a href="#" class="badge badge-primary">#Salupt</a> 
 
                     </div> 
                         <!--This it For Below the Image-->
                         <small class="small text-muted">
-                            
+                            <a href="#" class="text-muted">BY </a>
                             <span class="px-2">·</span>
                             <span>September 2022</span>
                             <span class="px-2">·</span>
-                            
+                            <a href="#" class="text-muted">32 Comments</a>
                         </small>
                     </div>
                     <div class="card-body border-top">
-                        <p class="my-3">We created multiple machine learning models in order to see which models had a higher accuracy.
-                            We used the cleaned 2015 and 2016 datasets in order to perform our models. The dataframes were preprocessed
-                            by removing unnecessary columns such as Ranking and Country. There were certain regions that had more countries
-                            that had higher score and therefore we attempted to encode the Region column to include the feature in
-                            the model however it did not improve the model's accuracy. The features were Economy,Family,Health,	Freedom, Trust, and	Generosity. </p> 
+                        <p class="my-3">Using RStudio, the data was grouped by region and then shows the average 
+                            happiness score for that region and year. </p> 
 
-                        <p>The target was the Score column. The dataframes were then split into X and y training and testing sets. Because we kept the two years seperate 
-                            we have 2 training sets and 2 testing sets in total. </p>
+                        <p>First, a year column was added to each dataset.Then the two tableswere added together in order
+                             to be able tot compare the data from each year. Then the tables were grouped by region and 
+                             year and then summarized by the average happiness score.Then the heatmap was created where
+                              x is the region, y is the year and the color is based on the average happniess score.</p>
 
-                        <p> We began with the linear regression model which can be used to create a linear model that will predict the Scores based on the value of the feature. For 2015 the model had an accuracy of 0.75 and the 2016 linear regression model had an accuracy of 0.73. 
-                                                        
-                            The next model used was the Random Forest Model. Random Forest models use algorithms to sample the data in order to create simpler decision trees. This is robust against nonlinear data. Since we tried a linear model, we decided to try this in order to see if our data was nonlinear. 
-                                                        
-                            
-                            With random forest model you able to then calculate the importance of each feature where it gives a value of how much a feature contributed in the prediction of the target. Here, the economy contributed the most which is consistent with previous analysis made. 
-                            
-                            
-                            Finally, we ran a SVM model and this resulted in a big disparity between the model built from 2015 versus 2016.
-                            
-                        </p>
+                        <p>  From the heatmap it can be seen that the regions 'Australian and New Zealand' 
+                             and 'North America' have higher average happiness scores. The lowest average is the 'Sub-Saharan Africa'.</p>
                     </div>
-                    
+                    <div class="card-header pt-0">
+                        <h3 class="card-title mb-4">RStudio</h3>
+                        <div class="blog-media mb-4">
+                            <img src="assets/imgs/visual.png/r-viz.png" alt="" class="w-100">
+                            <a href="#" class="badge badge-primary">#Salupt</a> 
+                        </div>  
+                        <small class="small text-muted">
+                            <a href="#" class="text-muted">BY </a>
+                            <span class="px-2">·</span>
+                            <span>September 2022</span>
+                            <span class="px-2">·</span>
+                            <a href="#" class="text-muted">32 Comments</a>
+                        </small>
+                    </div>
+
+                    <div class="card-body border-top">
+                        <p class="my-3">Using RStudio, the data was grouped by region and then shows the average 
+                            happiness score for that region and year. </p> 
+
+                        <p>First, a year column was added to each dataset.Then the two tableswere added together in order
+                             to be able tot compare the data from each year. Then the tables were grouped by region and 
+                             year and then summarized by the average happiness score.Then the heatmap was created where
+                              x is the region, y is the year and the color is based on the average happniess score.</p>
+
+                        <p>  From the heatmap it can be seen that the regions 'Australian and New Zealand' 
+                             and 'North America' have higher average happiness scores. The lowest average is the 'Sub-Saharan Africa'.</p>
+                    </div>
                     
                     <!--<div class="card-footer">
                          <h6 class="mt-5 mb-3 text-center"><a href="#" class="text-dark">Comments 4</a></h6>
@@ -316,7 +324,7 @@
                     </div>
                 </div>
             </div>-->
-            
+
             <!-- Sidebar -->
             <!--<div class="page-sidebar">
                 <h6 class=" ">Tags</h6>
@@ -411,34 +419,33 @@
     </div>-->
 
     <!-- Page Footer -->
-    <footer class="page-footer">
+    <!--<footer class="page-footer">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                 <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
-                    <img src="assets/imgs/index/Header_CPS.jpg" class="w-100" alt="">
+                <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
+                    <img src="assets/imgs/logo.svg" alt="" class="logo">
                 </div>
                 <div class="col-md-9 text-center text-md-right">
-                   <div class="socials">
-                        <a href="https://github.com/cbenitez0323" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a>  Clarissa Benitez</a>
-                        <a href="https://github.com/Atomickilroy/Final-Project/tree/main" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a> Nathaniel Livingston </a>
-                        <a href="https://github.com/hajaf?tab=repositories" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a> Haja Njie</a>
-                        <a href="https://github.com/caradavidson" class="font-weight-bold text-muted mr-4"><i class="ti-github"></i></a>Cara Davidson</a>
-                       <!-- <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-youtube pr-1"></i> 231,043</a>--> 
+                    <div class="socials">
+                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-facebook pr-1"></i> 123,345</a>
+                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-twitter pr-1"></i> 321,534</a>
+                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-pinterest-alt pr-1"></i> 543,312</a>
+                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-instagram pr-1"></i> 123,023</a>
+                        <a href="javascript:void(0)" class="font-weight-bold text-muted mr-4"><i class="ti-youtube pr-1"></i> 231,043</a>
                     </div>
-                </div>
+                </div>  
             </div>
-            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>document.write(new Date().getFullYear())</script>, Created By Team<a href="" class="text-muted font-weight-bold" target="_blank"></a>  All rights reserved </p> 
+            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>document.write(new Date().getFullYear())</script>, JoeBlog Created By <a href="https://www.devcrud.com" class="text-muted font-weight-bold" target="_blank">DevCrud.</a>  All rights reserved </p> 
         </div>      
-    </footer>
-    <!--End of Page Footer -->
-    
+    </footer>-->
+    <!-- End of Page Footer -->
+
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- JoeBLog js -->
-    <script src="assets/js/joeblog.js"></script>
+    <!--<script src="assets/js/joeblog.js"></script>-->
 
 </body>
 </html>
-

@@ -11611,9 +11611,9 @@ textarea.form-control {
 
 .page-header {
   position: relative;
-  background: url(../imgs/header.jpg) no-repeat center top fixed;
+  background: url(https://courses.bootcampspot.com/courses/1393/files/1509976/preview) no-repeat center top fixed;
   background-size: cover;
-  height: 450px;
+  height: 550px;
 }
 
 @media (max-width: 767.98px) {
